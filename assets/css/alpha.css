@@ -156,6 +156,20 @@ a:focus {
     margin-top: 0px;
 }
 
+.bg-green{
+    background-color: rgba(15, 218, 13, 0.76);
+    color: whitesmoke;
+}
+
+.bg-red{
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+.bg-yellow{
+    background-color: rgb(224, 210, 23);
+    color: whitesmoke;
+}
 
 /* Toasts */
 
