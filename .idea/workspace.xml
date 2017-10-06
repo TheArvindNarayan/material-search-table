@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cd1a5e-8cb7-4733-bc9c-8055a47f96bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/material-icons.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/alpha.css" afterPath="$PROJECT_DIR$/assets/css/alpha.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +20,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="1346">
               <caret line="375" column="60" lean-forward="false" selection-start-line="375" selection-start-column="60" selection-end-line="375" selection-end-column="60" />
               <folding>
                 <element signature="e#13471#13477#0" expanded="true" />
@@ -39,18 +37,8 @@
       <file leaf-file-name="alpha.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/alpha.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="2701" column="18" lean-forward="false" selection-start-line="2701" selection-start-column="18" selection-end-line="2701" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -60,7 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>welcome</find>
       <find>alpha</find>
       <find>.inner-sidebar</find>
       <find>.middle-content</find>
@@ -89,6 +76,7 @@
       <find>lorem</find>
       <find>loreM</find>
       <find>side-nav</find>
+      <find>src: url(http://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');</find>
       <find>custom.js</find>
     </findStrings>
     <replaceStrings>
@@ -216,7 +204,7 @@
       <workItem from="1507227360438" duration="9228000" />
       <workItem from="1507291035589" duration="8926000" />
       <workItem from="1507294864798" duration="24000" />
-      <workItem from="1507294938511" duration="5437000" />
+      <workItem from="1507294938511" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary="small fixes">
       <created>1507304593934</created>
@@ -246,11 +234,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507304865314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="icons issues">
+      <created>1507308460657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507308460657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26650000" />
+    <option name="totallyTimeSpent" value="27246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -311,7 +306,8 @@
     <MESSAGE value="table formating" />
     <MESSAGE value="checkbox sync and count" />
     <MESSAGE value="table dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="table dropdown" />
+    <MESSAGE value="icons issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -509,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="1346">
           <caret line="375" column="60" lean-forward="false" selection-start-line="375" selection-start-column="60" selection-end-line="375" selection-end-column="60" />
           <folding>
             <element signature="e#13471#13477#0" expanded="true" />
@@ -522,10 +518,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/alpha.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="2701" column="18" lean-forward="false" selection-start-line="2701" selection-start-column="18" selection-end-line="2701" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
           <folding />
         </state>
       </provider>
