@@ -137,6 +137,7 @@ a:focus {
     background-color: rgba(12, 31, 40, 0.77);
     color: whitesmoke;
     padding: 1.0rem;
+    display: none;
 }
 
 .dulled{

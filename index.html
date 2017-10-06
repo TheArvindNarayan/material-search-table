@@ -312,7 +312,7 @@
                         <div class="col s12 m12 l12">
                             <div class="card invoices-card">
                                 <div class="card-content">
-                                    <div class="row table-selection">0 items selected
+                                    <div class="row table-selection"> <span id="check-count"> 0 </span> items selected
                                     <span style="float: right"><i class="material-icons">more_vert</i>
                                     <i class="material-icons dp48">delete</i>
                                     </span>
@@ -321,8 +321,8 @@
                                         <thead>
                                         <tr>
                                             <th data-field="check">
-                                                <input type="checkbox" class="filled-in" id="header-check" >
-                                                <label for="header-check"></label></th>
+                                                <input type="checkbox" class="filled-in" id="check-all" >
+                                                <label for="check-all"></label></th>
                                             <th data-field="number">Number</th>
                                             <th data-field="company">Supplier</th>
                                             <th data-field="number">Sub Total</th>
@@ -333,7 +333,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td><input type="checkbox" class="filled-in" id="check-td-1" >
+                                            <td><input type="checkbox" class="filled-in check" id="check-td-1" >
                                                 <label for="check-td-1"></label></td>
                                             <td><img src="http://loremflickr.com/50/50/bag"> <br /> AK53</td>
                                             <td>John Doe</td>
@@ -344,8 +344,8 @@
                                         </tr>
 
                                         <tr>
-                                            <td><input type="checkbox" class="filled-in" id="check-td-1" >
-                                                <label for="check-td-1"></label></td>
+                                            <td><input type="checkbox" class="filled-in check" id="check-td-2" >
+                                                <label for="check-td-2"></label></td>
                                             <td><img src="http://loremflickr.com/50/50/cat"> <br /> AK43</td>
                                             <td>Eric Soe</td>
                                             <td>$12322</td>
@@ -355,8 +355,8 @@
                                         </tr>
 
                                         <tr>
-                                            <td><input type="checkbox" class="filled-in" id="check-td-1" >
-                                                <label for="check-td-1"></label></td>
+                                            <td><input type="checkbox" class="filled-in check" id="check-td-3" >
+                                                <label for="check-td-3"></label></td>
                                             <td><img src="http://loremflickr.com/50/50/dog"> <br /> AK33</td>
                                             <td>Carl Boe</td>
                                             <td>$45322</td>
@@ -366,8 +366,8 @@
                                         </tr>
 
                                         <tr>
-                                            <td><input type="checkbox" class="filled-in" id="check-td-1" >
-                                                <label for="check-td-1"></label></td>
+                                            <td><input type="checkbox" class="filled-in check" id="check-td-4" >
+                                                <label for="check-td-4"></label></td>
                                             <td><img src="http://loremflickr.com/50/50/rat"> <br /> AK354</td>
                                             <td>Joe Roe</td>
                                             <td>$12322</td>
@@ -417,6 +417,28 @@
         <script src="assets/plugins/peity/jquery.peity.min.js"></script>
         <script src="assets/js/alpha.min.js"></script>
         <script src="assets/js/pages/dashboard.js"></script>
+    <script>
+        $('#check-all').click(function() {
+            if ($(this).is(':checked')) {
+                $('.check').prop('checked', true);
+            } else {
+                $('.check').prop('checked', false);
+            }
+        });
+
+
+            $('.filled-in').click(function(){ console.log('ph-2');
+                var x =($('.check:checked').length);
+                $('.table-selection').css('display','block');
+                $('#check-count').text(x);
+                if (x==0){
+                    $('.table-selection').css('display','none');
+                }
+
+            });
+
+
+    </script>
 
     </body>
 </html>
