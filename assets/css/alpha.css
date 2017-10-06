@@ -1417,7 +1417,16 @@ nav .nav-wrapper ul li span.badge {
     height: calc(100% - 60px)!important;
     margin-top: 60px;
     z-index: 997;
-    width: 220px;
+    width: 240px;
+}
+
+.hidde{
+    display: none;
+}
+
+.sub-row > tr > td {
+    padding-left: calc(+2rem);
+    background-color: rgb(243, 243, 243);
 }
 
 #sidenav-overlay {

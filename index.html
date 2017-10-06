@@ -29,6 +29,7 @@
         <!--[if lt IE 9]>
         <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="assets/js/custom.js"></script>
         <![endif]-->
         
     </head>
@@ -86,7 +87,7 @@
                         <div class="header-title col s3 m3">
                             <span class="chapter-title ">Purchases</span>
                         </div>
-                        <form class="left search col s6 hide-on-small-and-down">
+                        <form class="left search col s6 m3 hide-on-small-and-down">
                             <div class="input-field">
                                 <input id="search" type="search" placeholder="Search" autocomplete="off">
                                 <label for="search"><i class="material-icons search-icon">search</i></label>
@@ -199,7 +200,7 @@
                         <div class="col s12 m4 search-result-container">
                             <div class="card card-transparent">
                                 <div class="card-content first">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sunt in culpa qui<span class="search-text search-result-highlight"></span> quis.</p>
+                                    <p>lore ipsum dolor sit amet, consectetur adipiscing elit, sunt in culpa qui<span class="search-text search-result-highlight"></span> quis.</p>
                                 </div>
                                 <div class="card-action">
                                     <span class="grey-text">Yesterday, 4:56 PM</span>
@@ -263,7 +264,10 @@
                                 <li><a href="#"><i class="material-icons dp48">subject</i>Purchase Request</a></li>
                                 <li><a href="#"><i class="material-icons dp48">note_add</i>Create Requests</a></li>
                                 <li><a href="#"><i class="material-icons dp48">assignment</i>Purchase Reports</a></li>
-                                <li><a href="#" class="" data-activates='dd-item'><i class="material-icons dp48">assessment</i>Reports <i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                                <li><a href="#" class="toggle-drop">Reports <i class="nav-drop-icon material-icons">keyboard_arrow_up</i></a>
+                                  <ul>
+                                      <li><a href="#" class="hide">Open Purchase Orders</a></li>
+                                  </ul>
                                 </li>
 
 
@@ -335,18 +339,55 @@
                                         <tr>
                                             <td><input type="checkbox" class="filled-in check" id="check-td-1" >
                                                 <label for="check-td-1"></label></td>
-                                            <td><img src="http://loremflickr.com/50/50/bag"> <br /> AK53</td>
+                                            <td><img src="http://loreflickr.com/50/50/bag"> <br /> <span class="trigger">AK53  &nbsp; > </span> </td>
                                             <td>John Doe</td>
                                             <td>$12332</td>
                                             <td><div class="chip bg-green">Quotation</div></td>
                                             <td><div class="chip ">None</div></td>
                                             <td>12/12/2014</td>
+
+                                        </tr>
+                                        <tr>
+                                            <tbody class="sub-row hide">
+                                    <tr>
+                                        <td><input type="checkbox" class="filled-in check" id="check-td-2" >
+                                            <label for="check-td-2"></label></td>
+                                        <td><img src="http://loreflickr.com/50/50/cat"> <br /> AK43</td>
+                                        <td>Eric Soe</td>
+                                        <td>$12322</td>
+                                        <td><div class="chip bg-red">Canceled</div></td>
+                                        <td><div class="chip ">None</div></td>
+                                        <td>12/12/2014</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><input type="checkbox" class="filled-in check" id="check-td-3" >
+                                            <label for="check-td-3"></label></td>
+                                        <td><img src="http://loreflickr.com/50/50/dog"> <br /> AK33</td>
+                                        <td>Carl Boe</td>
+                                        <td>$45322</td>
+                                        <td><div class="chip ">Dreaft</div></td>
+                                        <td><div class="chip bg-green">Posted</div></td>
+                                        <td>12/12/2014</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><input type="checkbox" class="filled-in check" id="check-td-4" >
+                                            <label for="check-td-4"></label></td>
+                                        <td><img src="http://loreflickr.com/50/50/rat"> <br /> AK354</td>
+                                        <td>Joe Roe</td>
+                                        <td>$12322</td>
+                                        <td><div class="chip bg-green">Quotation</div></td>
+                                        <td><div class="chip bg-yellow">Waiting</div></td>
+                                        <td>12/12/2014</td>
+                                    </tr>
+                                            </tbody>
                                         </tr>
 
                                         <tr>
                                             <td><input type="checkbox" class="filled-in check" id="check-td-2" >
                                                 <label for="check-td-2"></label></td>
-                                            <td><img src="http://loremflickr.com/50/50/cat"> <br /> AK43</td>
+                                            <td><img src="http://loreflickr.com/50/50/cat"> <br /> AK43</td>
                                             <td>Eric Soe</td>
                                             <td>$12322</td>
                                             <td><div class="chip bg-red">Canceled</div></td>
@@ -357,7 +398,7 @@
                                         <tr>
                                             <td><input type="checkbox" class="filled-in check" id="check-td-3" >
                                                 <label for="check-td-3"></label></td>
-                                            <td><img src="http://loremflickr.com/50/50/dog"> <br /> AK33</td>
+                                            <td><img src="http://loreflickr.com/50/50/dog"> <br /> AK33</td>
                                             <td>Carl Boe</td>
                                             <td>$45322</td>
                                             <td><div class="chip ">Dreaft</div></td>
@@ -368,7 +409,7 @@
                                         <tr>
                                             <td><input type="checkbox" class="filled-in check" id="check-td-4" >
                                                 <label for="check-td-4"></label></td>
-                                            <td><img src="http://loremflickr.com/50/50/rat"> <br /> AK354</td>
+                                            <td><img src="http://loreflickr.com/50/50/rat"> <br /> AK354</td>
                                             <td>Joe Roe</td>
                                             <td>$12322</td>
                                             <td><div class="chip bg-green">Quotation</div></td>
@@ -418,6 +459,8 @@
         <script src="assets/js/alpha.min.js"></script>
         <script src="assets/js/pages/dashboard.js"></script>
     <script>
+
+        //custom functionality
         $('#check-all').click(function() {
             if ($(this).is(':checked')) {
                 $('.check').prop('checked', true);
@@ -427,16 +470,19 @@
         });
 
 
-            $('.filled-in').click(function(){ console.log('ph-2');
-                var x =($('.check:checked').length);
-                $('.table-selection').css('display','block');
-                $('#check-count').text(x);
-                if (x==0){
-                    $('.table-selection').css('display','none');
-                }
+        $('.filled-in').click(function(){
+            var x =($('.check:checked').length);
+            $('.table-selection').css('display','block');
+            $('#check-count').text(x);
+            if (x==0){
+                $('.table-selection').css('display','none');
+            }
 
-            });
+        });
 
+        $('.trigger').click(function(){
+            $('.sub-row').toggleClass("hide");
+        });
 
     </script>
 
