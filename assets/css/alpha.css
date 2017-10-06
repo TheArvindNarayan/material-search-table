@@ -129,8 +129,14 @@ a:focus {
 }
 
 .filter > a{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.table-selection{
+    background-color: rgba(12, 31, 40, 0.77);
+    color: whitesmoke;
+    padding: 1.0rem;
 }
 
 .dulled{
