@@ -141,8 +141,9 @@ a:focus {
 
 .dulled{
     background-color: transparent !important;
-    border: 2px dotted rgba(60, 60, 60, 0.83);
-    color: rgba(60, 60, 60, 0.83);
+    border: 2px dotted rgba(60, 60, 60, 0.42);
+    color: #9F9F9F !important;
+    background-color: #DFDFDF !important;
 }
 
 #back-nav{
@@ -1409,8 +1410,8 @@ nav .nav-wrapper ul li span.badge {
 }
 
 .sidebar-menu {
-    padding-top: 15px!important;
-    padding-bottom: 15px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
 }
 
 @media (min-width: 600px) {
