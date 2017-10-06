@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cd1a5e-8cb7-4733-bc9c-8055a47f96bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/material-icons.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/alpha.css" afterPath="$PROJECT_DIR$/assets/css/alpha.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,28 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="462" column="30" lean-forward="false" selection-start-line="462" selection-start-column="30" selection-end-line="462" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="375" column="60" lean-forward="false" selection-start-line="375" selection-start-column="60" selection-end-line="375" selection-end-column="60" />
               <folding>
                 <element signature="e#13471#13477#0" expanded="true" />
                 <element signature="e#13477#13483#0" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#21023#21029#0" expanded="true" />
-                <element signature="e#26568#26574#1" expanded="true" />
-                <element signature="e#26710#26716#1" expanded="true" />
+                <element signature="e#26592#26598#1" expanded="true" />
+                <element signature="e#26734#26740#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alpha.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="alpha.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/alpha.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="1427" column="25" lean-forward="false" selection-start-line="1427" selection-start-column="25" selection-end-line="1427" selection-end-column="25" />
+            <state relative-caret-position="207">
+              <caret line="2701" column="18" lean-forward="false" selection-start-line="2701" selection-start-column="18" selection-end-line="2701" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -112,9 +112,9 @@
         <option value="$PROJECT_DIR$/assets/js/pages/dashboard.js" />
         <option value="$PROJECT_DIR$/assets/plugins/materialize/css/materialize.css" />
         <option value="$PROJECT_DIR$/assets/js/alpha.js" />
-        <option value="$PROJECT_DIR$/assets/css/alpha.css" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/alpha.css" />
       </list>
     </option>
   </component>
@@ -161,7 +161,14 @@
               <item name="fullfil.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullfil.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullfil.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullfil.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,6 +183,9 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css/fonts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -206,7 +216,7 @@
       <workItem from="1507227360438" duration="9228000" />
       <workItem from="1507291035589" duration="8926000" />
       <workItem from="1507294864798" duration="24000" />
-      <workItem from="1507294938511" duration="4513000" />
+      <workItem from="1507294938511" duration="5437000" />
     </task>
     <task id="LOCAL-00001" summary="small fixes">
       <created>1507304593934</created>
@@ -229,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507295568887</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="table dropdown">
+      <created>1507304865314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507304865314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25726000" />
+    <option name="totallyTimeSpent" value="26650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -293,7 +310,8 @@
     <MESSAGE value="small fixes" />
     <MESSAGE value="table formating" />
     <MESSAGE value="checkbox sync and count" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkbox sync and count" />
+    <MESSAGE value="table dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="table dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -309,8 +327,8 @@
             <element signature="e#13477#13483#0" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#21023#21029#0" expanded="true" />
-            <element signature="e#26568#26574#1" expanded="true" />
-            <element signature="e#26710#26716#1" expanded="true" />
+            <element signature="e#26592#26598#1" expanded="true" />
+            <element signature="e#26734#26740#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -340,8 +358,8 @@
             <element signature="e#13477#13483#0" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#21023#21029#0" expanded="true" />
-            <element signature="e#26568#26574#1" expanded="true" />
-            <element signature="e#26710#26716#1" expanded="true" />
+            <element signature="e#26592#26598#1" expanded="true" />
+            <element signature="e#26734#26740#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -371,8 +389,8 @@
             <element signature="e#13477#13483#0" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#21023#21029#0" expanded="true" />
-            <element signature="e#26568#26574#1" expanded="true" />
-            <element signature="e#26710#26716#1" expanded="true" />
+            <element signature="e#26592#26598#1" expanded="true" />
+            <element signature="e#26734#26740#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,14 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/alpha.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="1427" column="25" lean-forward="false" selection-start-line="1427" selection-start-column="25" selection-end-line="1427" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -499,16 +509,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="462" column="30" lean-forward="false" selection-start-line="462" selection-start-column="30" selection-end-line="462" selection-end-column="30" />
+        <state relative-caret-position="435">
+          <caret line="375" column="60" lean-forward="false" selection-start-line="375" selection-start-column="60" selection-end-line="375" selection-end-column="60" />
           <folding>
             <element signature="e#13471#13477#0" expanded="true" />
             <element signature="e#13477#13483#0" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#21023#21029#0" expanded="true" />
-            <element signature="e#26568#26574#1" expanded="true" />
-            <element signature="e#26710#26716#1" expanded="true" />
+            <element signature="e#26592#26598#1" expanded="true" />
+            <element signature="e#26734#26740#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/alpha.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="2701" column="18" lean-forward="false" selection-start-line="2701" selection-start-column="18" selection-end-line="2701" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
